@@ -35,10 +35,10 @@
  <!-- this is card section  -->
  <section class="flex my-[6rem] max-w-7xl mx-auto gap-5 px-[5%] flex-col-reverse sm:flex-row  ">
   <!-- all product -->
-     <div id="main" class="w-60%">
+     <div id="main" class="w-60%" >
       <h1 class="text-2xl mb-5 font-medium ml-10">Kitchenware</h1>
-       <div class=" w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"> 
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
+       <div class=" w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5" > 
+        <div class=" flex flex-col justify-center items-center bg-white p-5 rounded-sm" onclick="hendleClick(this)">
          <div class="bg-gray-300 w-[85%] p-5 m-5 flex justify-center items-center">
           <!-- img 1 -->
            <img src="./images/5210242_14551 1.png" alt=""> 
@@ -46,14 +46,14 @@
           <p ><i class="fa-solid fa-star  text-yellow-400"></i>
             <i class="fa-solid fa-star text-yellow-400"></i>
             <i class="fa-solid fa-star text-yellow-400"></i>
-            <i class="fa-solid fa-star text-yellow-300"></i>
+            <i class="fa-solid fa-star text-yellow-300"></i>  
           </p>
           <h1>k.Accessories</h1>
           <p>45.00 TK</p>
         </div>
         
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
-         <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center">
+        <div class=" flex flex-col justify-center items-center bg-white p-5" onclick="hendleClick(this)"" >
+         <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center rounded-sm">
           <!-- img2 -->
            <img src="./images/4999500_13370 1.png" alt="">
          </div>
@@ -66,8 +66,8 @@
           <p>39.00 TK</p>
         </div>
         
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
-         <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center">
+        <div class=" flex flex-col justify-center items-center bg-white p-5"  onclick="hendleClick(this)">
+         <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center" >
            <img src="./images/5037619_13725 1.png" alt="">
          </div>
           <p ><i class="fa-solid fa-star  text-yellow-400"></i>
@@ -90,8 +90,8 @@
        <div class=" w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
       
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
-         <div class="bg-gray-300 w-[85%] p-5 m-5 flex justify-center items-center">
+        <div class=" flex flex-col justify-center items-center bg-white p-5" onclick="hendleClick(this)">
+         <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center">
           <!-- img 1 -->
            <img src="./images/cap.png" alt=""> 
          </div>
@@ -104,8 +104,8 @@
           <p>80.00 TK</p>
         </div>
         
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
-         <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center">
+        <div class=" flex flex-col justify-center items-center bg-white p-5" onclick="hendleClick(this)">
+         <div class="bg-gray-300 w-[90%] p-5 m-5 flex justify-center items-center">
           <!-- img2 -->
            <img src="./images/man dre.png" alt="">
          </div>
@@ -118,7 +118,7 @@
           <p>45.00 TK</p>
         </div>
         
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
+        <div class=" flex flex-col justify-center items-center bg-white p-5" onclick="hendleClick(this)">
          <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center">
            <img src="./images/pngwing 1.png" alt="">
          </div>
@@ -141,7 +141,7 @@
        <div class=" w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
 
       
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
+        <div class=" flex flex-col justify-center items-center bg-white p-5" onclick="hendleClick(this)">
          <div class="bg-gray-300 w-[85%] p-5 m-5 flex justify-center items-center">
           <!-- img 1 -->
            <img src="./images/chair.png" alt=""> 
@@ -155,7 +155,7 @@
           <p>39.00 TK</p>
         </div>
         
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
+        <div class=" flex flex-col justify-center items-center bg-white p-5" onclick="hendleClick(this)">
          <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center">
           <!-- img2 -->
            <img src="./images/30106391_m503t0016_15june22_chair_02 1.png" alt="">
@@ -169,7 +169,7 @@
           <p>350.00 TK</p>
         </div>
         
-        <div class=" flex flex-col justify-center items-center bg-white p-5">
+        <div class=" flex flex-col justify-center items-center bg-white p-5" onclick="hendleClick(this)">
          <div class="bg-gray-300 w-full p-5 m-5 flex justify-center items-center">
            <img src="./images/31381206_4_3d_grey_sofa_furniture_modern_design_for_interior_room_front_angle 1.png" alt="">
          </div>
@@ -206,17 +206,15 @@
           </div>
         </div>
         <div class="px-8">
-          <ol class="list-inside list-decimal py-2">
-            <li class="font-semibold">Home Cooker</li>
-            <li class="font-semibold">Sports cates</li>
-            <li class="font-semibold">Home Cooker</li>
+          <ol id="nameList"  class="list-inside list-decimal py-2" >
+           
           </ol>
           <div class=" w-full bg-gray-400 mt-3 mb-4 h-[.5px]"></div>
 
           <ul>
-            <li class="font-semibold">Total price: <span class="text-[#11111180] font-normal ml-4">257.00TK</span></li>
-            <li class="font-semibold">Discount : <span class="text-[#11111180] font-normal ml-4">51.40TK</span></li>
-            <li class="font-semibold">Total: <span class="text-[#11111180] font-normal ml-4"> 205.60 TK</span></li>
+            <li  class="font-semibold">Total price: <span class="text-black font-bold  ml-4" id="total">00</span>TK</li>
+            <li class="font-semibold">Discount : <span class="text-black font-bold ml-4">00</span>TK</li>
+            <li class="font-semibold">Total: <span class="text-black font-bold ml-4" id="discounttotal"> 00 </span>TK</li>
           </ul>
           <div class=" w-full bg-gray-400 mt-3 mb-1 h-[.5px]"></div>
           <button class="text-[15px] px-2 bg-[#E527B2] py-1.5 border-[#E527B2] text-white rounded-md cursor-pointer hover:bg-transparent hover:text-gray-700 border font-semibold w-full mt-5 ">Make Purchase</button>
@@ -230,6 +228,6 @@
 
       
         
-  
+  <script src="./script.js"></script>
 </body>
 </html>
